@@ -398,6 +398,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.joelibarra.TA-TALK-TVOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TVOS_DEPLOYMENT_TARGET = 9.1;
 			};
 			name = Debug;
 		};
@@ -411,6 +412,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.joelibarra.TA-TALK-TVOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TVOS_DEPLOYMENT_TARGET = 9.1;
 			};
 			name = Release;
 		};
@@ -423,6 +425,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.joelibarra.TA-TALK-TVOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TA TALK TVOS.app/TA TALK TVOS";
+				TVOS_DEPLOYMENT_TARGET = 9.1;
 			};
 			name = Debug;
 		};
@@ -435,6 +438,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.joelibarra.TA-TALK-TVOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TA TALK TVOS.app/TA TALK TVOS";
+				TVOS_DEPLOYMENT_TARGET = 9.1;
 			};
 			name = Release;
 		};
@@ -446,6 +450,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.joelibarra.TA-TALK-TVOSUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = "TA TALK TVOS";
+				TVOS_DEPLOYMENT_TARGET = 9.1;
 			};
 			name = Debug;
 		};
@@ -457,6 +462,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.joelibarra.TA-TALK-TVOSUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = "TA TALK TVOS";
+				TVOS_DEPLOYMENT_TARGET = 9.1;
 			};
 			name = Release;
 		};
@@ -479,6 +485,7 @@
 				5DCFB95C1C7622020017A696 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DCFB95D1C7622020017A696 /* Build configuration list for PBXNativeTarget "TA TALK TVOSTests" */ = {
 			isa = XCConfigurationList;
@@ -487,6 +494,7 @@
 				5DCFB95F1C7622020017A696 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DCFB9601C7622020017A696 /* Build configuration list for PBXNativeTarget "TA TALK TVOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +503,7 @@
 				5DCFB9621C7622020017A696 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
